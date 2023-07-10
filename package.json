@@ -1,0 +1,24 @@
+{
+    "name": "cambaceo",
+    "version": "1.0.1",
+    "description": "Librería que permite obtener variables de cambaceo y utilizarlas como variables de entorno",
+    "main": "./dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npx tsc -p ./tsconfig.build.json"
+    },
+    "author": "Harvey Specter",
+    "license": "ISC",
+    "dependencies": {
+        "mssql": "^9.1.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.4.1",
+        "@typescript-eslint/eslint-plugin": "^5.61.0",
+        "@typescript-eslint/parser": "^5.61.0",
+        "dotenv": "^16.3.1",
+        "prettier": "3.0.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.6"
+    }
+}
